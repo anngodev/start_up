@@ -10,12 +10,20 @@ body,
 .cover {
     background: url("../img/couchfriends.jpg") top left no-repeat;
     background-size: cover;
+    display: table;
+    width: 100%;
+    
+}
+
+.red {
     text-align: center;
 }
 
 .cover-text {
     text-align: center;
     color: white;
+    display: table-cell;
+    vertical-align: middle; /* **this css trick will allow content to be in the middle regardless of browser height */
 }
     
 /* DO NOT NEED DIV W/CLASS OF NAVBAR-BRAND BETWEEN BUTTTON */
