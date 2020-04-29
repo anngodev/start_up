@@ -27,7 +27,12 @@ body,
 h1 {
     margin: 0;
     font-size: 70px;
-    letter-spacing: -4px;
+    letter-spacing: -3px;
+}
+
+nav {
+    
+    opacity: 0.3;
 }
     
 /* DO NOT NEED DIV W/CLASS OF NAVBAR-BRAND BETWEEN BUTTTON */
