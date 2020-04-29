@@ -30,8 +30,8 @@ h1 {
     letter-spacing: -3px;
 }
 
-nav {
-    opacity: 0.5;     
+.navbar-trans {
+    background: rgba(0, 0, 0, 0.5);
 }
 
 .testimonial {
@@ -57,5 +57,7 @@ footer, cite {
     color: #888;
     margin-top: 5;
 }
+
+
     
 /* DO NOT NEED DIV W/CLASS OF NAVBAR-BRAND BETWEEN BUTTTON */
