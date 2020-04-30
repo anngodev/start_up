@@ -102,6 +102,24 @@ footer a {
     color: hotpink;
 }
 
+/* Media Queries -- allows to style css in bootstrap depending on the size of the screen being viewed in, MQ finds out the size of browser then serves up new css to adapt and respond to browser size  */
+
+@media only screen and (max-width: 568px) {
+    .cover h1 {
+        font-size: 40px;
+    }
+    
+    p.lead {
+        font-size: 18px;
+    }
+    section {
+        padding: 20px;
+    }
+    
+    .blockquote {
+        font-size: 28px;
+    }
+}
 
     
 /* DO NOT NEED DIV W/CLASS OF NAVBAR-BRAND BETWEEN BUTTTON */
