@@ -31,7 +31,7 @@ h1 {
 }
 
 .navbar-trans {
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.7);
 }
 
 .testimonial {
@@ -56,6 +56,50 @@ footer, cite {
     font-weight: bold;
     color: #888;
     margin-top: 5;
+}
+
+.font-weight-bold {
+    font-family: bold;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+section {
+    padding: 100px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0 0 60px;
+}
+
+h2 + p {
+    text-align: center;
+    margin-top: -60px;
+}
+
+#team {
+    background: url("../img/fan.jpg") top left no-repeat;
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+
+.foot {
+    background: #222;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    font-weight: normal;
+    padding: 20px;
+    text-transform: lowercase;
+    font-family: Georgia, Times, serif;
+}
+
+footer a {
+    color: hotpink;
 }
 
 
